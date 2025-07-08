@@ -31,7 +31,7 @@ function App() {
     const newMode = mode === 'light' ? 'dark' : 'light';
     setMode(newMode);
     showAlert(`${newMode.charAt(0).toUpperCase() + newMode.slice(1)} mode has been enabled`, "success");
-    document.title = `TextUtils ${newMode.charAt(0).toUpperCase() + newMode.slice(1)} Mode`;
+    
   };
 
   useEffect(() => {
@@ -47,7 +47,7 @@ function App() {
         <Routes>
           <Route
             path="/TextUtilse"
-            element={<TextForm Heading="Enter text to analyze" mode={mode} showAlert={showAlert} />}
+            element={<TextForm Heading="Try TextUtils-Word Counter, Character Counter, Remove Extra Space " mode={mode} showAlert={showAlert} />}
           />
           <Route path="/about" element={<About />} />
           <Route path="/" element={<Home mode ={mode} />} />

@@ -37,7 +37,7 @@ export default function TextForm(props) {
 
     return (
         <>
-            <h1>{props.Heading}</h1>
+            <h2>{props.Heading}</h2>
             <div>
                 <div className="form-group">
                     <textarea
