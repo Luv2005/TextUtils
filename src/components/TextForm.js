@@ -55,11 +55,11 @@ export default function TextForm(props) {
 
                 <div className="buttoncontainer my-2">
                     <button type="button" className="btn btn-primary" onClick={convertUP} disabled={!text}>Uppercase</button>
-                    <button type="button" className="btn btn-primary mx-2" onClick={convertLP} disabled={!text}>Lowercase</button>
-                    <button type="button" className="btn btn-primary mx-2" onClick={cleartext} disabled={!text}>Clear</button>
-                    <button type="button" className="btn btn-warning mx-2" onClick={speak} disabled={!text}>pronunciation</button>
-                    <button type="button" className="btn btn-primary mx-2" onClick={copytext} disabled={!text}>Copy Text</button>
-                    <button type="button" className="btn btn-primary mx-2" onClick={removespace} disabled={!text}>Remove Space</button>
+                    <button type="button" className="btn btn-primary my-2  mx-2" onClick={convertLP} disabled={!text}>Lowercase</button>
+                    <button type="button" className="btn btn-primary  my-2 mx-2" onClick={cleartext} disabled={!text}>Clear</button>
+                    <button type="button" className="btn btn-warning  my-2 mx-2" onClick={speak} disabled={!text}>pronunciation</button>
+                    <button type="button" className="btn btn-primary  my-2 mx-2" onClick={copytext} disabled={!text}>Copy Text</button>
+                    <button type="button" className="btn btn-primary   my-2 mx-2" onClick={removespace} disabled={!text}>Remove Space</button>
                 </div>
             </div>
 
